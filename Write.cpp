@@ -8,7 +8,7 @@ int main()
     myfile.open("example.txt");
     if(!myfile)
     cout<<"file not exsit";
-    myfile<<"Writing this to a file.\n";
+    myfile<<"Writing this to a file blabla.\n";
     myfile.close();
     return 0;
 }
